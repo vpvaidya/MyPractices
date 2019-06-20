@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login to CRM Application",
+        "description": "",
+        "id": "login-to-crm-application-with-datatable;login-to-crm-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23490230860,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already login page",
+            "match": {
+              "location": "LoginwithMaps.use_is_already_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26430256,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of Page is Free CRM",
+            "match": {
+              "location": "LoginwithMaps.title_of_Page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 612324906,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginwithMaps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "sachin.vaidya12@gmail.com",
+                  "India@123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79438780,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on ligin button",
+            "match": {
+              "location": "LoginwithMaps.user_click_on_ligin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184534531,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginwithMaps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to CRM Application with Datatable",
+    "description": "",
+    "id": "login-to-crm-application-with-datatable",
+    "keyword": "Feature",
+    "uri": "C:/Workspace/SimpleBDDFramework/src/main/java/Features/LoginwithMaps.feature"
+  }
+]
